@@ -1,24 +1,29 @@
-# cpnt-262-assignment-3
-Assignment 3 - Crafting Components 
+# vue-project
 
-author: Myka Peligrino
+This template should help get you started developing with Vue 3 in Vite.
 
-## Notes
-- Majority of CSS styling used is TailwindCSS
-- Components
-  - Footer
-    - `props` with type and default value
-  - Header
-    - `props` with type and default value
-  - List
-    - used a `v-for` on `line 14` for repeating conent
-- Views
-  - HomeView.vue
-    - `v-bind` used on `line 15` at Header tag
+## Recommended IDE Setup
 
-## Attributions
-- Tailwind CSS Footer positioned at the bottom (https://stackoverflow.com/questions/59812003/tailwindcss-fixed-sticky-footer-on-the-bottom)
-- CPNT262 Vue Demo (https://github.com/sait-wbdv/f22-vue-content)
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-Resources:
-- Jewelry image from Unsplash (https://unsplash.com/photos/bLkj9eNhW90)
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
